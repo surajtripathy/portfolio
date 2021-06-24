@@ -257,6 +257,20 @@ nav a:hover .code {
   border: 1px solid #D9D9D9;
 }
 
+.skill_card {
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border: 1px solid rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+}
+
+.skill_card:hover {
+  box-shadow: 0 0 2rem -0.7rem #D9D9D9;
+  border: 1px solid #D9D9D9;
+}
+
 .desc {
   padding: 2rem;
   text-align: left;
@@ -396,7 +410,7 @@ footer .code {
 	height: 75px;
 	border: 2px solid #909090;
 	border-radius: 100%;
-	margin-right: 7px; /*space between*/
+	margin-right: 15px; /*space between*/
     display: flex;
     align-items: flex-start;
     transition: all 0.4s;
