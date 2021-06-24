@@ -199,7 +199,7 @@ nav a:hover .code {
 /* Projects section */
 
 #projects {
-  padding: 10rem 5rem;
+  padding: 10rem 5rem 5rem 5rem;
   text-align: center;
 }
 
@@ -220,6 +220,30 @@ nav a:hover .code {
     margin: 0 auto;
   }
 }
+
+#skills {
+  padding: 10rem 5rem 5rem 5rem;
+  text-align: center;
+}
+
+#skills > p {
+  margin-bottom: 5rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 5rem;
+  margin: 1.5rem auto;
+}
+
+@media (max-width: 400px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+}
+
 
 .card {
   position: relative;
@@ -394,5 +418,5 @@ footer .code {
   background: rgba(0,0,0,0.2);
 }
 .sosial-links a:hover i{
-  color:#fff;
+  color:#3498db;
 }
