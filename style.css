@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -442,10 +443,6 @@ ul >li {
 }
 
 
- * {
-  box-sizing: border-box;
-}
-
  .timeline {
   position: relative;
   max-width: 1200px;
@@ -480,8 +477,8 @@ ul >li {
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #61D4E8;
-  border: 4px solid #2DA1E7;
+  background-color: #909090;
+  border: 4px solid #d8cccc;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -533,7 +530,7 @@ ul >li {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #909090;
+  background-color: #d8cccc;
   position: relative;
   border-radius: 6px;
 }
