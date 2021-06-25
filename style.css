@@ -450,6 +450,7 @@ ul >li {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 10rem 5rem 0rem 5rem;
 }
 
 /* The actual timeline (the vertical ruler) */
