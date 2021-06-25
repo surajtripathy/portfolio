@@ -144,7 +144,7 @@ nav a:hover .code {
 /* About section */
 
 #about {
-  padding: 10rem 5rem 5rem 5rem;
+  padding: 10rem 5rem 0rem 5rem;
 }
 
 #about h2 {
