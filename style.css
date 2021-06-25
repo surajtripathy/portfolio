@@ -13,7 +13,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: Poppins;
-  color: #011640;
+  color: #000;
   overflow-x: hidden;
 }
 
@@ -38,7 +38,7 @@ li {
 }
 
 a {
-  color: #011640;
+  color: #000;
   text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ nav a:hover .code {
 }
 
 #interests-list {
-  background-color: #011640;
+  background-color: #ac9a9a;
   color: #fff;
   padding: 3rem;
   border-radius: 5px;
@@ -200,7 +200,7 @@ nav a:hover .code {
 /* Projects section */
 
 #projects {
-  padding: 10rem 5rem 0rem 5rem;
+  padding: 10rem 5rem 10rem 5rem;
   text-align: center;
 }
 
@@ -292,7 +292,7 @@ nav a:hover .code {
   margin-top: 3rem;
   padding: 10rem 5rem;
   text-align: center;
-  background-color: #011640;
+  background-color: #ac9a9a;
   color: #fff;
 }
 
@@ -315,7 +315,7 @@ nav a:hover .code {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  color: #011640;
+  color: #ac9a9a;
   padding: 1rem;
 }
 
@@ -333,7 +333,7 @@ nav a:hover .code {
 footer {
   text-align: center;
   padding: 2rem 0;
-  background-color: #011640;
+  background-color: #ac9a9a;
   color: #fff;
 }
 
@@ -448,6 +448,7 @@ ul >li {
   max-width: 1200px;
   margin: 0 auto;
   padding: 10rem 5rem 0rem 5rem;
+  color: #fff;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -466,7 +467,7 @@ ul >li {
 .container {
   padding: 10px 50px;
   position: relative;
-  background-color: inherit;
+  background-color: #fff;
   width: 50%;
 }
 
@@ -478,7 +479,7 @@ ul >li {
   height: 25px;
   right: -17px;
   background-color: #909090;
-  border: 4px solid #d8cccc;
+  border: 4px solid #ac9a9a;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -530,7 +531,7 @@ ul >li {
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #d8cccc;
+  background-color: #ac9a9a;
   position: relative;
   border-radius: 6px;
 }
